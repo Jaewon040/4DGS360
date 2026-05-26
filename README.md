@@ -20,7 +20,7 @@
 </p>
 
 <div align="center">
-  <img width="900px" src="./asset/2_method_eccv.png"/>
+  <img width="900px" src="./assets/2_method_eccv.png"/>
 </div>
 
 ## 📝 TODO List
