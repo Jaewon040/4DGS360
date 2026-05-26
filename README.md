@@ -102,14 +102,13 @@ python run_evaluation.py --work-dir outputs/jacket/ --ckpt-path outputs/jacket/c
 Evaluate the rendered images to compute quantitative metrics:
 ```bash
 # For the iPhone,iPhone360 dataset
-PYTHONPATH="." python scripts/evaluate_iphone360.py --data_dir ./data/iphone360/jacket --result_dir ./outputs/iphone360/jacket 
-
-
+PYTHONPATH="." python scripts/evaluate_iphone360.py --data_dir ./data/iphone360/jacket --result_dir ./outputs/iphone360/jacket
+```
 
 ## Citation
-```
+```bibtex
 @article{jang20264dgs360,
-  title={4DGS360: 360 $\{$$\backslash$deg$\}$ Gaussian Reconstruction of Dynamic Objects from a Single Video},
+  title={4DGS360: 360$^\circ$ Gaussian Reconstruction of Dynamic Objects from a Single Video},
   author={Jang, Jae Won and Chang, Yeonjin and Shin, Wonsik and Cho, Juhwan and Kwak, Nojun},
   journal={arXiv preprint arXiv:2603.21618},
   year={2026}
@@ -117,4 +116,5 @@ PYTHONPATH="." python scripts/evaluate_iphone360.py --data_dir ./data/iphone360/
 ```
 
 ## Acknowledgement
+
 Our implementation builds on [Shape of Motion](https://github.com/vye16/shape-of-motion), [HiMoR](https://github.com/pfnet-research/himor), and [TAPIP3D](https://github.com/zbw001/TAPIP3D). We thank the authors for open-sourcing their code.
