@@ -594,7 +594,7 @@ if __name__ == "__main__":
             img_dir = work_dir / "rgb" / args.scale_factor
         mask_dir = work_dir / "masks" / args.scale_factor
 
-    tapip3d_dir = work_dir / "anchortap3d"
+    tapip3d_dir = work_dir / "flow3d_preprocessed" / "anchortap3d"
 
     tracks_dir = tapip3d_dir / "tracks"
     vid_dir = tapip3d_dir / "vid" / f"{args.img_res}x"
