@@ -1,0 +1,10 @@
+TrainConfig:
+  num_epochs: 600
+  num_init_nodes: 70
+  num_motion_bases: 15
+  invisible_weight: 1.0
+  num_fg: 50000
+  num_bg: 100000
+
+LossesConfig:
+  w_arap: 2.0

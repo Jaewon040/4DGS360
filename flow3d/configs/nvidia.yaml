@@ -1,0 +1,12 @@
+LossesConfig:
+  w_arap: 0.01
+
+OptimizerConfig:
+  reset_opacity_every_n_controls: 20
+  stop_control_steps: 8000
+  stop_control_by_screen_steos: 2000
+  stop_contol_steos: 8000
+  start_second_level: 2000
+  stop_node_grad_densify: 2000
+  node_grad_densify_steps: 200
+  start_gard_densify_steps: 1000
