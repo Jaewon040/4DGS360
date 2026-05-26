@@ -47,7 +47,7 @@ pip install git+https://github.com/rahul-goel/fused-ssim/ --no-build-isolation
 
 ## Data preparation
 ### iPhone360 Dataset
-Download the preprocessed iPhone dataset from [here](https://drive.google.com/drive/folders/17hUxN0cnu2SdpJpA374Kxt-ri7tr-Qyp?usp=drive_link) and place it under `./data/iPhone360/`.
+Download the preprocessed iPhone360 dataset from [here](https://drive.google.com/drive/folders/17hUxN0cnu2SdpJpA374Kxt-ri7tr-Qyp?usp=drive_link) and place it under `./data/iPhone360/`.
 
 
 ### Custom Dataset
